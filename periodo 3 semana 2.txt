@@ -1,0 +1,11 @@
+importar  Java . útil _ escáner ;
+clase  principal {
+  public  static  void  main ( String [] args ) {
+    int  i = 0 ;
+    mientras ( verdadero ) {
+      yo ++;
+      sistema _ fuera _ println ( "Valor de i:" + i );
+      si ( yo == 9 ) { descanso ;}
+    }
+  }
+}

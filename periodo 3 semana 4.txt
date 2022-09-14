@@ -1,0 +1,27 @@
+importar  Java . útil _ escáner ;
+clase  principal {
+  public  static  void  main ( String [] args ) {
+    doble  peso ;
+    int  cont1 = 0 , cont2 = 0 , piezas = 0 ;
+    Scanner  entrada = nuevo  Scanner ( System . in );
+
+    hacer {
+      sistema _ fuera _ println ( "Ingreso 0 para salir" );
+      sistema _ fuera _ println ( "Ingrese el peso:" );
+      peso = entrada . siguienteDoble ();
+      si ( peso >= 9.8 && peso <= 10.2 )
+      {
+      cont1 = cont1 + 1 ;
+      pieza ++;
+      }
+      sino  si ( peso > 0 && peso < 9.8 ) {
+      cont2 ++;
+      pieza ++;
+      }
+    }
+    mientras ( peso != 0 );
+    sistema _ fuera _ println ( "piezas entre 9.8 y 10.2: " + cont1 );
+    sistema _ fuera _ println ( "piezas menores a 9.8:" + cont2 );
+    sistema _ fuera _ println ( "cantidad de piezas: " + piezas );
+  }
+}

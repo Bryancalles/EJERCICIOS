@@ -1,0 +1,20 @@
+importar  Java . útil _ escáner ;
+clase  principal {
+  public  static  void  main ( String [] args ) {
+    Scanner  datos = new  Scanner ( System . in );
+    int  valor ;
+    hacer {
+      sistema _ fuera _ print ( "ingrese un valor entre 0 y 999 (0 finaliza):" );
+      valor = datos . siguienteInt ();
+      si ( valor >= 100 ) {
+        sistema _ fuera _ println ( "es de 3 digitos." );
+      } más {
+        si ( valor >= 10 ) {
+          sistema _ fuera _ println ( "es de 2 digitos." );
+        } más {
+          sistema _ fuera _ println ( "es de 1 digito." );
+        }
+      }
+    } while ( valor != 0 );
+  }
+}
